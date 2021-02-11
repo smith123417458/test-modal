@@ -1,6 +1,7 @@
 <template>
- <div>  
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+ <div class="d-flex justify-content-center">  
+<!-- <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal"> -->
+<button type="button" class="btn btn-primary " @click="openCouponModal(true)">
  按了沒有反應
 </button>
 
@@ -28,11 +29,18 @@
 </template>
 
 <script>
+import $ from 'jquery';
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'Home',
  
+  methods: {
+    openCouponModal() {
+      $('#exampleModal').modal('show'); 
+    },
+
+  },
 }
 </script>
