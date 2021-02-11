@@ -1,9 +1,9 @@
 <template>
  <div class="d-flex justify-content-center">  
-<!-- <button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal"> -->
-<button type="button" class="btn btn-primary " @click="openCouponModal(true)">
- 按了沒有反應
-</button>
+<button type="button" class="btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal">
+<!-- <button type="button" class="btn btn-primary " @click="openCouponModal(true)">-->
+ 按了沒有反應 
+</button> 
 
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -29,18 +29,18 @@
 </template>
 
 <script>
-import $ from 'jquery';
+// import $ from 'jquery';
 // @ is an alias to /src
 // import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'Home',
  
-  methods: {
-    openCouponModal() {
-      $('#exampleModal').modal('show'); 
-    },
+  // methods: {
+  //   openCouponModal() {
+  //     $('#exampleModal').modal('show'); 
+  //   },
 
-  },
+  // },
 }
 </script>
