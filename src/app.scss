@@ -1,0 +1,6 @@
+@import '~bootstrap/scss/functions';
+@import './helpers/variables'; // 使用本地檔案
+@import '~bootstrap/scss/mixins';
+
+/* --- Bootstrap 主檔案 (使用模塊解析) --- */
+@import '~bootstrap/scss/bootstrap';
