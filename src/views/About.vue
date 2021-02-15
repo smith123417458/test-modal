@@ -14,7 +14,7 @@
     </thead>
     <tbody id="myTable">
       <tr>
-        <td>盛建雄</td>
+        <td>陳建華</td>
         <td>Doe</td>
         <td>john@example.com</td>
       </tr>
@@ -57,7 +57,7 @@ created(){
       $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
     });
   });
-});
+   }
  
 }
 </script>
